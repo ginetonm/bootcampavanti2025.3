@@ -1,0 +1,22 @@
+Bootcamp Atlântico Avanti 2025.3
+Curso básico em Machine Learning
+Aluno: Gíneton Heber Mota Moura
+
+Atividade 1
+
+1. Explique, com suas palavras, o que é machine learning?
+É uma área da Inteligência Artificial, onde são desenvolvidos algoritmos que vão aprender a partir da análise de grande volume de dados a tomar decisões identificando padrões, e vão se aperfeiçoando com o tempo, sendo alimentado com mais informações.
+
+2. Explique o conceito de conjunto de treinamento, conjunto de validação e conjunto de teste em machine learning.
+Conjunto de treinamento compreende amostras usadas para ajustar modelos de aprendizado a entender padrões e relacionamentos dentro dos dados. O conjunto de validação diz respeito a diferentes amostras para avaliar o desempenho dos modelos treinados e refinar seus parâmetros. E o conjunto de teste é uma amostra separada que não foi visualizada, que fornecerá uma avaliação final imparcial do ajuste do modelo.
+
+3. Explique como você lidaria com dados ausentes em um conjunto de dados de treinamento.
+As decisões a ser tomadas seriam de acordo com o contexto e a importância da informação. Se for uma situação de poucos dados ausentes em um grande conjunto é possível remover esses dados ausentes. Se for o caso de dados ausentes importantes, pode-se tentar substituir por valores estatísticos utilizando média, mediana, moda ou outra técnica avançada.
+
+4. O que é uma matriz de confusão e como ela é usada para avaliar o desempenho de um modelo preditivo?
+É um método para visualizar os resultados de algoritmos de classificação, sendo mais específico, é uma tabela que avalia os modelos de classificação de aprendizado de máquina e compara o que o modelo previu com o que realmente é.
+
+5. Em quais áreas (tais como construção civil, agricultura, saúde, manufatura, entre outras) você acha mais interessante aplicar algoritmos de machine learning?
+Acredito que na Indústria, no Agronegócio, na Saúde e na Cibersegurança.
+
+
