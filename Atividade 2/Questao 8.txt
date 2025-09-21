@@ -1,0 +1,6 @@
+Utilizando pandas, como realizar a leitura de um arquivo CSV em um DataFrame e exibir as primeiras linhas?
+
+Com a biblioteca Pandas importada, para realizar a leitura de um arquivo CSV em um DataFrame é necessário 
+utilizar a função "pd.read_csv()" que carregará o arquivo passando o caminho como argumento. Com a utilização
+da função "df.head(n)" é possível exibir as 5 primeiras linhas por padrão, mas caso queira escolher a quantidade
+de linhas especifica o número no lugar de "n".

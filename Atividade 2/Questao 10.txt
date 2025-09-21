@@ -1,0 +1,8 @@
+Utilizando pandas, como lidar com valores ausentes (NaN) em um DataFrame?
+
+Para lidar com valores ausentes "NaN" (not a number), o método "isna()" poderá ser usado para detectar
+os valores que são ausentes em um "dataframe" retornando uma matriz booleana com "true" onde há ausência 
+de valores e "false" onde há valores presentes. Para substituir os valores ausentes em todo o "dataframe"
+pode ser usado o método "df.fillna(valor, inplace=True)". A remoção dos valores ausentes pode ser feita 
+quando for um número pequeno de linhas que não afetará o conjunto de dados, para isto o método 
+"def.dropna(inplace=True)" permitirá remover essas linhas.

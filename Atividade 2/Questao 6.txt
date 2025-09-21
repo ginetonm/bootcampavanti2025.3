@@ -1,0 +1,9 @@
+Como identificar e tratar outliers em uma coluna numérica usando desvio padrão ou quartis?
+
+Para identificar e tratar os outliers (valores discrepantes), podemos utilizar o método de desvio padrão ou quartis 
+em um conjunto de dados (dataframe). Após identificar é possível remover (excluir linha), substituir utilizando técnicas
+ou manter (valores válidos e importantes). No desvio padrão é baseado no cálculo da média e do desvio padrão dos dados,
+considerando como outliers qualquer valor que esteja a uma certa distância da média definindo o limite inferior e superior.
+O método quartis, se basea nos quartis do conjunto e no intervalo interquartil (IQR), que é definido como a diferença
+entre o terceiro quartil (Q3) e o primeiro quartil (Q1). Os outliers são definidos como valores que estão abaixo do limite 
+inferior ou acima do limite superior. Em Python, pode-se calcular utilizando a biblioteca Numpy.

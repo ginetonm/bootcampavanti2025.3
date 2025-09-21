@@ -1,0 +1,10 @@
+Como concatenar vários DataFrames (empilhando linhas ou colunas), mesmo que tenham colunas diferentes?
+Dica: Utiliza-se pd.concat() especificando axis=0 (linhas) ou axis=1 (colunas). 
+Quando há colunas diferentes, os valores ausentes são preenchidos com NaN.
+
+Para manipular e preparar dados para a análise, temos o método "pd.concat" dos pandas, 
+uma biblioteca do python que consegue juntar dataframes em uma única tabela. Para concatenar 
+é necessário passar uma lista de dataframes, mesmo com colunas diferentes, especificando o "axis=0" 
+(linhas) empilha um abaixo do outro colocando os valores como "NaN" (not a number) se não existirem.
+Para concatenar colunas de lado a lado, especifica "axis=1" (colunas). Se as linhas não forem iguais,
+os valores ausentes são preenchidos como "NaN" (not a number). 
